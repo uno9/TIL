@@ -2,7 +2,7 @@
 ---
 
 ## 1 コンテナを作成して入る
-`docker run -it --name "コンテナ名" イメージ名 /bin/bash`
+`sudo docker run --name "コンテナ名" -i -t イメージ名 /bin/bash  `
 
 ## 2 すでに作成していたコンテナを起動する
 `sudo docker start コンテナID`
