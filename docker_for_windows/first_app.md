@@ -24,3 +24,11 @@
     - `git config --global user.name [名前]`
     - `git config --global user.email [メールアドレス]`
   - ユーザー設定が確認できれば**リポジトリの作成＋push**が行える
+
+## ※ 作成したコンテナをvscodeで操作（GUI）
+- リモート接続（SSHなど）ができる拡張機能を使う
+- dockerの拡張機能から`attach vscode`を実行すると成功しないことがある
+---
+- リモート接続できるコンテナから、起動させたいコンテナを選択
+- 指定コンテナの上にマウスを置き、フォルダーアイコン`Attach to Container`を実行
+<img src="./images/remote_tool_img.png">
