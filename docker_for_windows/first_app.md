@@ -13,6 +13,7 @@
 ## 3 コンテナの中のシェルに入る
 `docker exec -it コンテナID /bin/bash`
 ## 4 コンテナの中で環境を構築する
+- apt-getを最新版にする: `apt-get update`
 - sudo : `apt-get install sudo`
 - vim : `sudo apt-get install vim`
 - git : 
