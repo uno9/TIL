@@ -23,5 +23,8 @@ end
 ### 2. Rails command
 * アプリの作成
 →`rails new app名`
-* rails g command
-  * https://qiita.com/zaru/items/cde2c46b6126867a1a64
+* [rails g command](https://qiita.com/zaru/items/cde2c46b6126867a1a64)
+* テーブルの確認
+  * [カラムの確認](https://qiita.com/littlekbt/items/48fa2b428147921db5a5)
+  * [カラムの編集](https://qiita.com/azusanakano/items/a2847e4e582b9a627e3a)
+  * 
