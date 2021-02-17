@@ -20,6 +20,9 @@ end
 →controller & viewは複数形
 →modelは単数形
 
+* railsでclearコマンドを実行する   
+  `puts "\e[H\e[2J"`
+
 ### 2. Rails command
 * アプリの作成
 →`rails new app名`
@@ -27,4 +30,5 @@ end
 * テーブルの確認
   * [カラムの確認](https://qiita.com/littlekbt/items/48fa2b428147921db5a5)
   * [カラムの編集](https://qiita.com/azusanakano/items/a2847e4e582b9a627e3a)
-  * 
+  * [rails c上で"clear"を実行する方法](http://portaltan.hatenablog.com/entry/2015/09/24/182836)
+ 
