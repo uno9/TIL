@@ -14,3 +14,12 @@
 * ruby/node/railsのインストールを行う（2021/1/28時点の内容）
   * https://qiita.com/kaishuu0123/items/2a91495e7daa8c7783ed#_reference-676d3ce878ece19a21dc
 
+#### 3. rubyコンテナを立てた場合のインストール
+* railsのインストール
+```
+gem install rails --no-document
+
+rails -v
+```
+
+* [windows用セットアップ 2. Railsのインストール](https://railsgirls.jp/install#setup_for_linux)
