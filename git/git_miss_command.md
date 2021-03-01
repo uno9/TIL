@@ -14,3 +14,23 @@ git reset --soft <commit id>
   * `git reset --soft HEAD^`
 * http://www-creators.com/archives/1116#1_git_commit
 
+## 3.stashを間違えて削除した…戻したい…
+* 削除するstashを間違えたときに、過去の変更データを捜索して戻す
+  * stashなどのデータを読み込み
+   `git fsck --no-reflog | awk '/dangling commit/ {print $3}' > dangling_commit`
+  * 変更歴などを表示
+    * グラフver
+      `git log --graph --oneline --decorate --all $(cat dangling_commit)`
+    * 列挙ver
+      `git log --oneline $(cat dangling_commit) | grep 'WIP on'`
+  * メッセージなどを手掛かりに目当てのstashデータを探す
+  * 見つけたら、下記のコマンドで中身を確認
+    * `git show <ハッシュ>`
+  * データを発見したらハッシュをコピーして下記のコマンドにペースト
+    * `git stash apply <ハッシュ>`
+  * いらないファイルは削除
+    * `rm dangling_commit`
+
+* 実行すると、**×stashが生成される**のではなく**変更として復活**する
+* 変更を選択して新たなstashを生成することで、元に戻せる
+* https://zenn.dev/snowcait/articles/7ba0720db50aea28c652
