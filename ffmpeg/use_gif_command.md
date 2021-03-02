@@ -6,13 +6,10 @@
 `cd C:\Users\OWNER\Documents\Captura`
 
 ## 1.gifで2倍速かつwigth:600pxで作成するとき
-`ffmpeg -i .\dev_upload_original.gif -vf scale=600:-1 -af atempo=2.0 dev_upload.gif`
+` ffmpeg -i no_check.gif -vf scale=700:-1 -af atempo=2.0,atempo=2.0 no_check_process.gif`
 
 ## 2.
 * xxxxをxxxとする。
-→
-* xxxxをxxxとする。
-→
 
 ## 参考サイト
 - [それffmprgで出来るよ！](https://qiita.com/cha84rakanal/items/e84fe4eb6fbe2ae13fd8#)
