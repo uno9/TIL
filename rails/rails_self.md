@@ -29,7 +29,7 @@ end
 * クラスメソッド内でselfを使うとクラスを指す
 * インスタンスメソッド内で使用されたselfは、そのインスタンスになる
 
-* contoller側で取得したparamsを受け取ることもできる
+* contoller側で取得した@の中のデータを受け取ることもできる
   * classメソッドを呼びにいっているので、classメソッドが取得したparamsを操作できるという流れ
 ```
 class User < ActiveRecord::Base
@@ -71,6 +71,34 @@ class User < ActiveRecord::Base
   end
 end
 ```
+## 3.controllerの@を受け取るself
+
+```
+<!-- controller -->
+class Api::V1::UsersController < ApplicationController
+  def update
+    @user = NoCheck.find(params[:user_id])
+    @user.update(edit_name)
+  end
+end
+
+```
+インスタンスメソッド内で、selfを使用することでアクセスする
+```
+<!-- model -->
+class User < ApplicationRecord
+belongs_to :number
+  def update
+    self.create_reverted_no_check!(
+      number_id: self.number.id #関連モデルへアクセス
+      user_id: self.id, #クラスメソッドへアクセス
+      user_name: edit_name, #paramsを引数として使用
+      user_number: self.number.user_number #関連モデルへアクセス
+    )
+  end
+end
+```
+
 ## 参考サイト
 - http://rails.hatenadiary.jp/entry/2013/02/15/125047
 - https://qiita.com/suzuki-koya/items/1553c405beeb73f83bbc
