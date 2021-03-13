@@ -170,3 +170,33 @@ end
 |トッポ|110|a子|3|
 |プリッツ|98|c助|2|
 |板チョコ|90|NULL|NULL|
+
+**right join例**
+
+- 親モデル：顧客モデル
+- 子モデル：商品モデル
+  - 商品のidとbuy_itemを関連づける
+
+```
+select *(表示したカラム：＊全部)
+from items
+right join items
+on users.buy_item = items.id;
+
+```
+**Active Record**
+
+```
+<!-- models > item.rb -->
+def items_data
+  right_joins(:items)
+end
+```
+**結果：板チョコを購入した人がいないのでNULLと表示される**
+|name|buy_item|name|price|
+|-||-|-|-|
+|b太|1|ポッキー|100|
+|c助|2|プリッツ|98|
+|a子|3|トッポ|110|
+|c助|2|プリッツ|98|
+|NULL|NULL|板チョコ|90|
