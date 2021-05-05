@@ -49,6 +49,8 @@
     * 式を分解しやすい
       * 呼び出される範囲のみ抽出しやすい
 
+![image](https://user-images.githubusercontent.com/47252405/117174276-83d9ea00-ae08-11eb-95ed-b47bf05055cd.png)
+
 参考：
 * [第3回　スコープを意識したプログラミング―その2　変数のスコープ](https://gihyo.jp/dev/serial/01/code/000302)
 * [意識のスコープ](https://enterprisezine.jp/iti/detail/200)
