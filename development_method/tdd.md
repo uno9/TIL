@@ -8,3 +8,6 @@
 4. １で書いたテストを成功させる（Green）
 5. テストが通るまでリファクタリングを行う
 6. 1～5を繰り返す
+
+参考：
+- [テスト駆動開発って何だろう](https://dev.classmethod.jp/articles/what-tdd/)
