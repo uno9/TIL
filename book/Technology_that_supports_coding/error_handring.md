@@ -35,3 +35,6 @@
 →
 * xxxxをxxxとする。
 →
+
+## 4.参考
+* [エラーハンドリングの歴史](https://faithandbrave.github.io/article/error_handling.html)
