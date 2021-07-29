@@ -113,3 +113,8 @@
       出典：[固定小数点数と浮動小数点数の違いを調べよう！](https://itmanabi.com/fixed-floating/)
 
   * 浮動小数点をあらわすためのしくみ
+    * 整数・少数点以下でわける
+    * ビットに変換する
+    * 2つの数字をくっつける
+    ![](2021-07-29-23-55-29.png)   
+    * 参考： [ビットで表す数字の世界～浮動小数点編～](https://www.macnica.co.jp/business/semiconductor/articles/intel/133327/)
