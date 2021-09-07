@@ -11,7 +11,8 @@
     * Lambda
 
 ## 2.Azureとは
-* xxxxをxxxとする。
-→
-* xxxxをxxxとする。
+* Microsoftが提供しているクラウドサービス
+* Active Directoryを使用することで、既存のオンプレミスの環境と連携を行いやすい
+  * 代表的なサービス
+    * Azure Function
 →
