@@ -15,4 +15,8 @@
 * Active Directoryを使用することで、既存のオンプレミスの環境と連携を行いやすい
   * 代表的なサービス
     * Azure Function
-→
+
+## 3.その他のサービス GCP
+* GCP(Google Cloud Platform)
+* Googleが提供するクラウドサービス
+* コンテナ技術においてデファクトスタンダードの地位を確立
