@@ -22,10 +22,14 @@ s3.abortMultipartUpload(params, function (err, data) {
 出典：[Sending a Request Using S3](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html)
 
 ## 2.オブジェクトとは
-* xxxxをxxxとする。
-→
-* xxxxをxxxとする。
-→
+* クラスやインスタンスのこと
+* 対象や物をあらわす
+  * 設計図にもとづいて作られたものがインスタンス（オブジェクト）
+* 属性（プロパティ）や操作（メソッド）をもつ
+  * 属性：対象の物に対する情報
+  * 操作：何らかの動きができる
+![](2021-09-12-23-32-59.png)
+参考：[初心者向けに徹底解説！オブジェクト指向とは？](https://eng-entrance.com/what-oop)
 
 
 ## 3.オブジェクト指向
