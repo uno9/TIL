@@ -33,5 +33,10 @@ s3.abortMultipartUpload(params, function (err, data) {
 
 
 ## 3.オブジェクト指向
+* 言語によって意味が異なるというかエンジニアによって解釈が異なる
+* オブジェクトに注目した考えかた
+* Object-Oriented（オブジェクト・オリエンテッド）
+  * OOと表記されることもある
+* 
 
 ## 4.クラスとオブジェクト
