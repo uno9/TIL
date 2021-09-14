@@ -37,6 +37,13 @@ s3.abortMultipartUpload(params, function (err, data) {
 * オブジェクトに注目した考えかた
 * Object-Oriented（オブジェクト・オリエンテッド）
   * OOと表記されることもある
-* 
+* 現実世界のモノに注目した考え方
+  * 例：冷蔵庫
+    * 大きい
+    * 冷凍
+    * 冷蔵
+    * 冷たい
+    * モノを冷やす
+* 参考：[オブジェクト指向が5000%理解できる記事](https://qiita.com/ICT_hero/items/b2f8e39d7cc23ad505f9)
 
 ## 4.クラスとオブジェクト
