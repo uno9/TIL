@@ -22,5 +22,21 @@
   * [なぜサーバーレスが注目されているのか？ゼロから学ぶサーバーレスアーキテクチャ（FaaS）入門](https://mmmcorp.co.jp/column/serverless/)
 
 ## 3.サーバーレスアプリケーションと従来のアプリケーション
+* サーバレスとは？
+  * ユーザーは、サーバ管理不要
+  * すでに動くと分かっている環境が使用できる可用性
+  * リクエストの量に柔軟に対応できる
+* サーバーレスアプリケーションは、クラウドベンダーが提供するインフラ上でアプリケーションの開発に専念できる状態
+  * FaaS
+    * Function as a service
+    * アプリケーションの実行・管理環境を提供
+    * 利用者はアプリケーションの開発に専念できる
+    * 例：AWS Lambda
+      * [ 2021年度最新版クラウドサービスXaaS(Baas, Caas, Daas, Iaas, IDaas, IPaas, Paas, Saas, Faas)についてのまとめ](https://qiita.com/cocoa-maemae/items/6d9b6edc3082a678ed0f)
+      * ※写真の略語も上記のリンクに記載アリ
+  ![](2021-10-01-23-25-39.png)
+  出典：[FaaSとは？サーバレスの意味やPaaS・CaaS・IaaSとの違いを解説](https://it-trend.jp/paas/article/301-0019)
+
 * [サーバレスとコンテナを比較、選定の決め手はアプリケーション特性](https://techtarget.itmedia.co.jp/tt/news/1803/07/news05.html)
+
 
