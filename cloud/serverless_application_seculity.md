@@ -39,4 +39,7 @@
 
 * [サーバレスとコンテナを比較、選定の決め手はアプリケーション特性](https://techtarget.itmedia.co.jp/tt/news/1803/07/news05.html)
 
+* 従来のアプリ開発環境
+  * オンプレミス
+    * 参考：[意外と知らない？ITトレンド用語](https://www.ntt.com/bizon/glossary/j-a/on-premises.html)
 
