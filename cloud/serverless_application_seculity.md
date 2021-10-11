@@ -4,7 +4,7 @@
 ## 1.サーバーレスアプリケーションとは？
 (以前まとめた記事を参照すること！)[cloud\serverless_application.md]
 
-## 2.重大なリスク
+## 2.重大なリスク一覧
 
 - SAS-1: Function Event-Data Injection
 - SAS-2: Broken Authentication
@@ -20,3 +20,5 @@
 - SAS-12: CROSS-EXECUTION DATA PERSISTENCY
 
 * 参考：[サーバーレスアプリケーションの最も危険なリスク12選](https://qiita.com/yuuhu04/items/ad38d6d35d358a90a60f)
+
+## 3.重大なリスクの内容
