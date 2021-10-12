@@ -22,3 +22,28 @@
 * 参考：[サーバーレスアプリケーションの最も危険なリスク12選](https://qiita.com/yuuhu04/items/ad38d6d35d358a90a60f)
 
 ## 3.重大なリスクの内容
+#### SAS-1: Function Event-Data Injection
+* これまで
+  * アプリケーションインジェクションは、ユーザーから直接入力にのみ注意を払っていた
+* サーバーレスアプリケーション
+  * ユーザーの直接入力以外にもイベントのトリガーが生まれたため、多数のイベントソースからの入力に注意しなければならない
+  * 例：
+    * クラウドストレージイベント
+    * SQLデータベースイベント
+    * HTTP API呼び出し
+    * SMS メッセージ通知、プッシュ通知、メールなど
+  * サーバーレスで最も一般的なインジェクションの欠陥
+    * Operating System (OS) command injection
+    * Function runtime code injection (e.g. Node.js/JavaScript, Python, Java, C#, Golang)
+    * SQL injection
+    * NoSQL injection
+    * Pub/Sub Message Data Tampering (e.g. MQTT data Injection)
+    * Object deserialization attacks
+    * XML External Entity (XXE)
+    * Server-Side Request Forgery (SSRF)
+* 対策
+  * ユーザーが直接入力しないとはいえ、イベントソースから受け取るデータがすべて正しいものとは限らないため、チェックは必要
+  * コードの権限が常に最小であること
+    * 権限が大きいことで、他のソースにタッチされる可能性
+  * イベントタイプとシステムのエントリポイントを全て洗い出す
+  * HTTP/HTTPS トラフィックを検査する
