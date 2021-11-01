@@ -159,3 +159,6 @@
     * 例：
       * AWS Secrets Manager
       * Azure Key Vault
+
+#### SAS-8: Denial of Service & Financial Resource Exhaustion
+* DoS攻撃・DDoS攻撃は、インターネットに関わるほぼ全ての企業が直面する問題に
