@@ -161,4 +161,13 @@
       * Azure Key Vault
 
 #### SAS-8: Denial of Service & Financial Resource Exhaustion
-* DoS攻撃・DDoS攻撃は、インターネットに関わるほぼ全ての企業が直面する問題に
+* DoS攻撃・DDoS攻撃は、インターネットに関わるほぼ全ての企業が直面する問題
+* サーバーレスアプリケーション
+  * ReDoS（正規表現のサービス拒否）攻撃という問題が発生
+    * ReDoSのとは？
+      * 正規表現が使用されている箇所において、正規表現エンジニアに対し処理時間が多く掛かる入力を行うとサービスが停止してしまう脆弱性
+    * 参考：[ReDoSとは？](https://yamory.io/blog/about-redos-attack/)
+    * 例：AWS-Lambda-Multipart-Parser
+      * 上記のNPMパッケージは、マルチパートフォームを解析するために正規表現を使用していた
+      * 正規表現エンジン処理を遅くするほどのリクエストを送信すれば、ReDoS攻撃が成功する
+      * マルチパートフォームとは、HTTPリクエストで複数のフォームデータ（マルチパート）
