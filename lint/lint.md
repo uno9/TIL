@@ -34,3 +34,8 @@
   * データ型使用状況の解析
   
 参考サイト：https://docs.oracle.com/cd/E19957-01/806-4836/lint.html
+
+
+# その他参考サイト
+- [Step by Stepで始めるESLint](https://qiita.com/howdy39/items/6e2c75861bc5a14b2acf)
+  - eslintを入れるときに
