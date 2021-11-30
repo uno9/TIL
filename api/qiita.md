@@ -1,14 +1,8 @@
-# xxxx
-作成日時:2018/10/xx
+# Qiita API
+作成日時:2021/11/29
 
-## 1.学び
-* xxxxをxxxとする。
-→
-* xxxxをxxxとする。
-→
+## 1.Qiita API
+* Qiitaの情報を取得することができる
 
-## 2.学び
-* xxxxをxxxとする。
-→
-* xxxxをxxxとする。
-→
+## 2.ドキュメント
+* https://qiita.com/api/v2/docs
