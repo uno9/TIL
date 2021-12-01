@@ -34,3 +34,8 @@ C#
 ## 3. ドキュメント
 - https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/welcome.html
 - https://www.sbbit.jp/article/cont1/67741
+
+## 関連
+- サーバーレスとは？
+  - [サーバーレスアプリケーション](../cloud/serverless_application.md)
+  - [サーバーレスアプリケーションのセキュリティ](./colud/../../cloud/serverless_application_seculity.md)
