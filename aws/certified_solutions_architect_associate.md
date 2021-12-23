@@ -33,6 +33,8 @@
        -  あらゆるお悩みをヒアリングし、方向性を示す
 
 ## 求められるスキル
+- テクニカルスキル
+- 
 
 ## 参考サイト
 - https://www.geekly.co.jp/column/cat-position/solution-architect-work/
