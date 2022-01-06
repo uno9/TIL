@@ -1,5 +1,11 @@
 import fetch from 'node-fetch';
 
+// コマンド引数の受け取り
+// process.argv[0]：node.exe
+// process.argv[1]：実行ファイル（translate.mjs）
+// process.argv[2]：引数
+
+
 function getWord(translate, target){
   const google_translate = "https://script.google.com/macros/s/AKfycbzZtvOvf14TaMdRIYzocRcf3mktzGgXvlFvyczo/exec";
   var param = {
@@ -26,4 +32,5 @@ function getWord(translate, target){
   });
 }
 
-getWord("nodeコマンドに引数を受け取り、翻訳をしたい","en");
+// todo
+getWord(process.argv[2],process.argv[3]);
