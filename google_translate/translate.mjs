@@ -1,10 +1,12 @@
 import fetch from 'node-fetch';
 
-// コマンド引数の受け取り
+// # API source script
+// https://script.google.com/home/projects/1VjSYAHTrn64djVj4og5hMzNL-8Xx2z8OGGdWSR1UZhHT_zqsS2nEKy41/edit
+
+// # コマンド引数の受け取り
 // process.argv[0]：node.exe
 // process.argv[1]：実行ファイル（translate.mjs）
 // process.argv[2]：引数
-
 
 function getWord(translate, target){
   const google_translate = "https://script.google.com/macros/s/AKfycbzZtvOvf14TaMdRIYzocRcf3mktzGgXvlFvyczo/exec";
