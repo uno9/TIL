@@ -8,13 +8,12 @@ import fetch from 'node-fetch';
 // process.argv[1]：実行ファイル（translate.mjs）
 // process.argv[2]：引数
 
-// 入力結果：英語または日本語で翻訳結果を返す
+// 入力結果：翻訳した英語をスネークケースで返す
 
 function getWord(translate, target){
   const google_translate = "https://script.google.com/macros/s/AKfycbzZtvOvf14TaMdRIYzocRcf3mktzGgXvlFvyczo/exec";
   var param = {
-    en: ["ja", "en"],
-    ja: ["en", "ja"]
+    en: ["ja", "en"]
   }
 
   var url = `${google_translate}?text=${translate}&source=${param[target][0]}&target=${param[target][1]}`;
@@ -29,11 +28,13 @@ function getWord(translate, target){
     return response.json();
   })
   .then(json => {
-    console.log(`翻訳結果 > \n ${json.text}`);
+    var lower_case = json.text.toLowerCase();
+    var formatted_variables = lower_case.replace(/\s+/g,'_');
+    console.log(`翻訳結果 > \n ${formatted_variables}`);
   })
   .catch(error => {
     console.log(`エラー内容 > \n ${error.text}`);
   });
 }
 
-getWord(process.argv[2],process.argv[3]);
+getWord(process.argv[2],'en');
