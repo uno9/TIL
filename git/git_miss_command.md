@@ -34,3 +34,21 @@ git reset --soft <commit id>
 * 実行すると、**×stashが生成される**のではなく**変更として復活**する
 * 変更を選択して新たなstashを生成することで、元に戻せる
 * https://zenn.dev/snowcait/articles/7ba0720db50aea28c652
+
+
+## 4.ブランチ名を変更
+**ブランチ名の確認**
+* 自分が切ったローカルにあるブランチ一覧
+  * `git branch`
+* 他の人が切ったリモート含め、全ブランチ
+  * `git branch -a`
+
+**名前変更**
+* チーム開発で他の人が切ったリモート含め、全ブランチ名の変更
+* `git branch -m 変更前のブランチ名　変更後のブランチ名`
+* リモートの変更前ブランチを削除
+　　* `git push origin :変更前ブランチ名`
+* 変更したローカルのブランチをpushする
+  * `git push origin 変更したブランチ名`
+
+参考にしたサイト： https://qiita.com/ramuneru/items/0590cf2136df59614a26
