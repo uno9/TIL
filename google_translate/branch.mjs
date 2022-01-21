@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { snake } from './branch_case.mjs';
+import { snake, kebab, camel } from './branch_case.mjs';
 
 // # API source script
 // https://script.google.com/home/projects/1VjSYAHTrn64djVj4og5hMzNL-8Xx2z8OGGdWSR1UZhHT_zqsS2nEKy41/edit
@@ -29,7 +29,9 @@ function getWord(translate, target){
     return response.json();
   })
   .then(json => {
-    var formatted_variables = snake(json);
+    // var formatted_variables = snake(json);
+    // var formatted_variables = kebab(json);
+    var formatted_variables = camel(json);
     console.log(`翻訳結果 > \n ${formatted_variables}`);
   })
   .catch(error => {
