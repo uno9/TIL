@@ -1,15 +1,13 @@
 export function camel(json) {
-  // todo:文字列を節単位に区切り、最初の文字だけ大文字にする事ができていない
   var format_array = [];
   const separate_key = " ";
   var array_string = json.text.split(separate_key);
-  console.log(array_string);
-  for(i=0; i.length > 0; i++){
-    console.log(i);
-    console.log(array_string[i].toUpperCase()+array_string[i].toLowerCase());
-    // format_array.push()
+  for(var i = 0; i < array_string.length; i++){
+    format_array.push(
+      array_string[i].charAt(0).toUpperCase() + array_string[i].slice(1)
+    );
   }
-  // return format_array;
+  return format_array.join('');
 }
 
 export function kebab(json) {
