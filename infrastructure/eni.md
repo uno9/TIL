@@ -2,10 +2,7 @@
 作成日時:2021/2/2
 
 ## 1.ENIとは？
-* xxxxをxxxとする。
-→
-* xxxxをxxxとする。
-→
+* Elastic Network Interface
+* 公式ドキュメント: https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-eni.html
 
 ## 2.学び
-正式名称：Elastic Network Interface
