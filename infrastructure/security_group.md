@@ -34,3 +34,8 @@
 ![](2022-02-10-23-20-03.png)
 
 出典 公式ドキュメント：https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/VPC_Security.html
+
+
+## 3. ルール
+- インバウンドルール
+- アウトバウンドルール
