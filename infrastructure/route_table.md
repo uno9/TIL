@@ -8,6 +8,13 @@
 
 
 ## ルートテーブルの概念
-
+- メインルートテーブル 
+- カスタムルートテーブル
+- ルートテーブルの関連付け
+- サブネットルートテーブル
+- ローカルルート
+- ゲートウェイルートテーブル
+- ローカルゲートウェイルートテーブル 
+- Transit Gateway ルートテーブル
 
 公式ドキュメント：https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/VPC_Route_Tables.html#RouteTables
