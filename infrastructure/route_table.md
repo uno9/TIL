@@ -18,3 +18,5 @@
 - Transit Gateway ルートテーブル
 
 公式ドキュメント：https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/VPC_Route_Tables.html#RouteTables
+
+## ルーティングの動作
