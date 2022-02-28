@@ -35,4 +35,8 @@
   - 送信先は、VPC内のサブネットのIPv4・IPv6CIDRブロック全体と同じ範囲
   - ターゲットは、NATゲートウェイ・ネットワークインターフェイス・Gateway Load Balancer エンドポイントを設定できる
 
-## ルーティングの動作
+## ルータとスイッチ
+![image](https://user-images.githubusercontent.com/47252405/156005133-ecc3a82e-8a45-4a23-9c8b-8d6af1fce64a.png)
+
+参照: https://milestone-of-se.nesuke.com/nw-basic/as-nw-engineer/osi-reference-model-and-ip-set-model/
+
