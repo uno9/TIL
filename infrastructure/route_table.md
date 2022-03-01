@@ -40,3 +40,5 @@
 
 参照: https://milestone-of-se.nesuke.com/nw-basic/as-nw-engineer/osi-reference-model-and-ip-set-model/
 
+## ルーティングの動作
+https://www.n-study.com/iprouting/routing-behavior/
