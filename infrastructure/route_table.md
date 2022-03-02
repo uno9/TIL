@@ -42,3 +42,5 @@
 
 ## ルーティングの動作
 https://www.n-study.com/iprouting/routing-behavior/
+
+https://atmarkit.itmedia.co.jp/ait/articles/0111/01/news001.html
