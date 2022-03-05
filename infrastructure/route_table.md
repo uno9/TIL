@@ -46,4 +46,4 @@ https://www.n-study.com/iprouting/routing-behavior/
 https://atmarkit.itmedia.co.jp/ait/articles/0111/01/news001.html
 
 
-バケツリレー
+通信を行うときは、各リソース間をバケツリレーのように情報伝達しながら渡っていく
