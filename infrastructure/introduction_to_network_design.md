@@ -63,6 +63,11 @@
 
 ## インスタンスの配置
 - サブネット、インスタンスのセキュリティポリシーを設定
+  - ネットワークACLの作成
+  - セキュリティグループの作成
+    - ネットワークACLとセキュリティグループの違い
+      - 優先度や何に対してセキュリティ管理をするのか、対象が異なる
+    - https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/VPC_Security.html
 - インスタンスを配置
 ## 参考にした記事
 - [AWS のネットワーク設計入門](https://d1.awsstatic.com/events/jp/2017/summit/slide/D2T3-5.pdf)
