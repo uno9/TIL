@@ -75,6 +75,7 @@
   - プライベートIPとパブリックIPの違い参考記事: https://rainbow-engine.com/publicip-privateip-difference/
 
 ### 名前解決の検討
+- DNS名を指定するか？
 
 ## 参考にした記事
 - [AWS のネットワーク設計入門](https://d1.awsstatic.com/events/jp/2017/summit/slide/D2T3-5.pdf)
