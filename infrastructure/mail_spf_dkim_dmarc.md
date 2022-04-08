@@ -24,7 +24,7 @@
 
 ## DMARC
 - SPFとDKIMの認証が失敗したメールに対して、どんな処理をするのか指定しておくもの（DMARCポリシー）
-
+- 仕組み
 
 # 参考記事
 - https://ent.iij.ad.jp/articles/172/
