@@ -12,3 +12,6 @@
 - 一定数のビットをまとめたものがバイト
 
 記事URL：https://xtech.nikkei.com/it/pc/article/NPC/20070329/266905/
+
+## windowsのビット
+- 32bit・64bit
