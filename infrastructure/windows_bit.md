@@ -15,3 +15,4 @@
 
 ## windowsのビット
 - 32bit・64bit
+  - 16bit → 32bit → 64bit
