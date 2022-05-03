@@ -3,8 +3,12 @@
 
 
 ## RDSとは
-Amazon Relational Database Service 
-AWSが提供しているリレーショナルデータベースのサービス
+- リレーショナルデータベース
+  - 関連のあるデータ項目の集合体
+  - 参考記事: https://aws.amazon.com/jp/relational-database/
+
+- Amazon Relational Database Service 
+  - AWSが提供しているリレーショナルデータベースのサービス
 
 現在サポートしているエンジンは、
 
