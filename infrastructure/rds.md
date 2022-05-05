@@ -5,6 +5,7 @@
 ## RDSとは
 - リレーショナルデータベース
   - 関連のあるデータ項目の集合体
+    - プライマリーキーにより、各オブジェクトは関連している
   - 参考記事: https://aws.amazon.com/jp/relational-database/
 
 - Amazon Relational Database Service 
