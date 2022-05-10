@@ -35,7 +35,9 @@ DBインスタンスクラス（マシンスペック）
 ```
 
 ### RDBMS
-- RDAMSとは
+- Relational DataBase Management System
+- リレーショナル型データベースを管理するもの
+
 
 参考記事: 
 - https://business.ntt-east.co.jp/content/cloudsolution/column-23.html#section-01-01
