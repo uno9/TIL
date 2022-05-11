@@ -37,6 +37,7 @@ DBインスタンスクラス（マシンスペック）
 ### RDBMS
 - Relational DataBase Management System
 - リレーショナル型データベースを管理するもの
+  - 例: MySQLなど
 
 
 参考記事: 
