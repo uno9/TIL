@@ -1,3 +1,4 @@
 SAM
 
-AWSのリソース連携が強い
+
+AWS サーバーレスアプリケーションモデル (SAM、Serverless Application Model) 
