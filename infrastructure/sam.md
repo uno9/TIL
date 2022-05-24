@@ -7,3 +7,5 @@ https://docs.aws.amazon.com/ja_jp/serverless-application-model/latest/developerg
 
 
 ## テンプレート仕様
+- テンプレートに関数、API、アクセス権限、イベントなどの設定を行う
+テンプレートはyaml・json形式で記述できる
