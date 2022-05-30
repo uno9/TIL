@@ -34,7 +34,13 @@ DBインスタンスクラス（マシンスペック）
 ネットワーク設定（配置するAmazon VPCなど）
 ```
 
-### RDBMS
+### DBMS
+- Data Base Management System
+- データベース管理システム
+  - データを格納したり、削除したり、検索したりとデータベースを操作してくれるソフト
+- データベースを操作する際に命令をする言語の1つがSQL
+
+#### RDBMS
 - Relational DataBase Management System
 - リレーショナル型データベースを管理するもの
   - 例: MySQLなど
